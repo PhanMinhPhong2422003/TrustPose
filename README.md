@@ -43,9 +43,9 @@ Human pose estimation (HPE) in low-light conditions poses significant challenges
 ### Setting Up Dataset File Paths
 
 #### Instructions for Setting Up File Paths
-- **DATASET_SOURCE**: Defines the path to the dataset directory in the configuration file` "/workspace/mmpose/work/configs/TrustPose.py"`).
+- **DATASET_SOURCE**: Defines the path to the dataset directory in the configuration file` "/TrustPose/mmpose/work/configs/TrustPose.py"`).
    ```python
-   data_root = '/workspace/data/ExLPose/'
+   data_root = '/TrustPose/data/ExLPose/'
    ```
 - **Directory Structure**: Ensure the dataset is organized in the `data/` directory with subfolders for images and masks:
   ```
@@ -62,7 +62,7 @@ Human pose estimation (HPE) in low-light conditions poses significant challenges
 ### Training
 Train the model using the provided configuration:
 ```bash
-python /workspace/mmpose/tools/train.py /workspace/mmpose/work/configs/TrustPose.py
+python /TrustPose/mmpose/tools/train.py /TrustPose/work/configs/TrustPose.py
 ```
 - The `TrustPose.py` file contains hyperparameters (e.g., learning rate, epochs). Modify it as needed.
 - Training logs and checkpoints will be saved in the `/work/checkpoint/TrustPose/` directory.
