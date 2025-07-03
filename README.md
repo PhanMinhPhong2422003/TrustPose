@@ -26,7 +26,7 @@ Human pose estimation (HPE) in low-light conditions poses significant challenges
 1. Clone this repository:
    ```bash
    git clone https://github.com/PhanMinhPhong2422003/TrustPose.git
-   cd workspace/mmpose
+   cd TrustPose
    ```
 2. Install dependencies:
    ```bash
